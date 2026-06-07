@@ -35,7 +35,7 @@ A solução contempla atualização do sistema, instalação de serviços, cria�
 # Estrutura do Projeto
 
 ```text
-trabalho03-cloud-shell/
+trabalho3_Cloud/
 ├── Dockerfile
 ├── docker-compose.yml
 ├── README.md
@@ -246,7 +246,7 @@ Contendo:
 Link da imagem publicada:
 
 ```text
-https://hub.docker.com/r/SEU_USUARIO/trabalho03-linux
+https://hub.docker.com/r/alex1258/trabalho03-linux
 ```
 
 ---
