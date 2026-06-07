@@ -1,0 +1,40 @@
+===== RELATÓRIO =====
+Projeto: Sistema de Monitoramento de Segurança
+Aluno: Alexssander Cassio Comper Cristino
+
+Filesystem      Size  Used Avail Use% Mounted on
+overlay        1007G  5.0G  951G   1% /
+tmpfs            64M     0   64M   0% /dev
+shm              64M     0   64M   0% /dev/shm
+C:\             476G  379G   97G  80% /app/logs
+/dev/sde       1007G  5.0G  951G   1% /etc/hosts
+tmpfs           1.9G     0  1.9G   0% /proc/acpi
+tmpfs           1.9G     0  1.9G   0% /proc/scsi
+tmpfs           1.9G     0  1.9G   0% /sys/firmware
+
+4.0K	/app/Dockerfile
+0	/app/README.md
+0	/app/backups
+4.0K	/app/docker-compose.yml
+0	/app/evidencias
+4.0K	/app/logs
+48K	/app/scripts
+24K	/app/seguranca
+8.0K	/app/source
+
+
+total 0
+-rw-r--r-- 1 root root 240 Jun  7 18:56 backup_seguranca_2026-06-07_18-56.tar.gz
+-rw-r--r-- 1 root root 242 Jun  7 19:10 backup_seguranca_2026-06-07_19-10.tar.gz
+-rw-r--r-- 1 root root 240 Jun  7 19:17 backup_seguranca_2026-06-07_19-17.tar.gz
+
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+_apt:x:100:65534::/nonexistent:/usr/sbin/nologin
+operador_camera:x:1000:1001::/home/operador_camera:/bin/sh

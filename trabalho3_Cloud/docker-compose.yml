@@ -1,0 +1,18 @@
+services:
+  monitoramento:
+    build: .
+    container_name: trabalho03-linux
+
+    ports:
+      - "8080:80"
+
+    volumes:
+      - ./backups:/app/backups
+      - ./logs:/app/logs
+      - ./source:/app/source
+      - ./evidencias:/app/evidencias
+
+    tty: true
+    stdin_open: true
+
+    restart: unless-stopped
