@@ -5,6 +5,7 @@ ARQ="/app/logs/relatorio_execucao.txt"
 echo "===== RELATÓRIO =====" > $ARQ
 echo "Projeto: Sistema de Monitoramento de Segurança" >> $ARQ
 echo "Aluno: Alexssander Cassio Comper Cristino" >> $ARQ
+echo "Gerado em: $(date '+%Y-%m-%d %H:%M:%S')" >> $ARQ
 
 echo "" >> $ARQ
 
